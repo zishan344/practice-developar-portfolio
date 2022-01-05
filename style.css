@@ -6,10 +6,13 @@ body {
   display: flex;
 }
 .top-banner {
-  background-image: url(./images/top-banner.png);
+  background-color: rgba(19, 17, 17, 0.397);
+  background-image: url(./images/top-banner.png), opacity(0.1);
   background-repeat: no-repeat;
 }
 .dream-big {
+  color: rgba(184, 180, 180, 0.918);
+  background-color: rgba(17, 17, 17, 0.842);
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -24,6 +27,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 37px;
+}
 .orange-color {
   color: orange;
 }
@@ -33,4 +39,35 @@ h1 {
   background-image: linear-gradient(rgb(141, 129, 105), rgb(223, 56, 27));
   border-radius: 10px;
   color: white;
+}
+.exprance {
+  color: white;
+  background-color: rgba(43, 25, 25, 0.822);
+  padding-top: 1px;
+}
+
+.full-dev {
+  border-radius: 10px;
+  padding: 0% 2%;
+  box-shadow: 1px 1px 19px black;
+  margin: 22px;
+  border-left: 8px solid;
+  border-image: linear-gradient(tomato, orange);
+  border-image-slice: 1;
+}
+.baby-dev {
+  border-radius: 10px;
+  padding: 0% 2%;
+  box-shadow: 1px 2px 9px black;
+  margin: 22px;
+  border-left: 8px solid;
+  border-image: linear-gradient(rgb(61, 43, 218), rgb(255, 102, 0));
+  border-image-slice: 1;
+}
+footer {
+  background-color: rgba(59, 57, 57, 0.685);
+  padding: 1px;
+}
+footer p {
+  text-align: center;
 }
